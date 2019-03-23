@@ -75,6 +75,6 @@ public class SelectFlight {
 	{
 		WebElement selectfligt_continue=driver.findElement(By.name("reserveFlights"));
 		selectfligt_continue.click();
-		wait.until(ExpectedConditions.invisibilityOfElementLocated(By.name("reserveFlights")));//Exit Criteria
+		//wait.until(ExpectedConditions.invisibilityOfElementLocated(By.name("reserveFlights")));//Exit Criteria
 	}
 }
