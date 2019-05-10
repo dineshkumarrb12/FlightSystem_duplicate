@@ -1,10 +1,13 @@
 package com.testng.learn.FlightBooking_duplicate;
 
 import java.util.HashMap;
+import java.util.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.FindBys;
 import org.openqa.selenium.support.ui.Select;
 
 public class BookAFlight {
@@ -32,6 +35,10 @@ public class BookAFlight {
 		{
 			this.driver=driver;
 		}
+		@FindBys(
+				@FindBy(xpath="//li/a[@class='document_icon']/..//li/a[text()='Checklist']/../ul/li/a")
+				)
+		List<WebElement> dinesh;
 		 void bookflight(HashMap<String,String> bookinguserdetails)
 		 {
 			 System.out.println("\nEntered into book a flight method");
