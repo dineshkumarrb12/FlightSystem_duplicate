@@ -36,7 +36,7 @@ Then details given should be stored and should redirect to select flight page
 |1				 |San Francisco	|April			|20	 |London		|March					|06					|
 |1				 |Sydney    		|May				|20	 |London		|March					|07					|
 |2				 |Zurich		 		|May				|20	 |London		|January				|08					|
-|3				 |Frankfurt 		|March	  	|20	 |London	  |February			  |09					|				
+
 
 
 
