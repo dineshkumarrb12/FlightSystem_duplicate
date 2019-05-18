@@ -1,5 +1,6 @@
 Feature: User details
-Scenario: Book the ticke by filling user details
+
+Scenario Outline: Book the ticke by filling user details
 Given Launch the application with with authenticated username and password
 And select depart and arival date and time
 And select the flight
@@ -16,6 +17,7 @@ And click delivery address same as billing address check box
 And click secure purchase button to confim booking
 Then Ticke should be booked
 
+Examples:
 |Firstname|Lastname|Meal		|Cardtype|Number					|Year	|Month	|CFirstname	|CMiddlename|CLastname|Address											|Street						|City			|State			|Pincode|
 |dinesh		|kumar	 |Hindu		|Discover|789-963-845-455	|09		|2011		|dinesh			|kumar			|rajanbabu|No.3 second street, k.k nagar|Arnipalyam, Arni	|T.v malai|Tamil Nadu	|632301	|
 |asshok		|				 |Muslim	|Discover|123-963-98-098	|09		|-21		|!@#!				|kumar			|w				|! second street							|Arnipalyam, Arni	|T.v malai|Tamil Nadu	|632301	|
