@@ -1,4 +1,4 @@
-package com.testng.learn.FlightBooking_duplicate;
+package com.testng.learn.flightbooking_duplicate;
 
 import java.util.HashMap;
 import java.util.List;

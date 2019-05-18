@@ -2,6 +2,8 @@ package com.testng.learn.FlightBooking_duplicate;
 
 import org.openqa.selenium.WebDriver;
 
+import com.testng.learn.flightbooking_duplicate.SelectFlight;
+
 public class SelectFlight_TC1 {
 	public WebDriver selectflight() {
 		

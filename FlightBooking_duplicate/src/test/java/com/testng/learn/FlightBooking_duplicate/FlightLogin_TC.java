@@ -2,6 +2,7 @@ package com.testng.learn.FlightBooking_duplicate;
 
 import org.openqa.selenium.WebDriver;
 
+import com.testng.learn.flightbooking_duplicate.FlightLogin;
 import com.testng.learn.utilitest.DriverSupplices;
 
 public class FlightLogin_TC {

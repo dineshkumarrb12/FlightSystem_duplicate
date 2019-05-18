@@ -1,4 +1,4 @@
-package com.testng.learn.FlightBooking_duplicate;
+package com.testng.learn.flightbooking_duplicate;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
