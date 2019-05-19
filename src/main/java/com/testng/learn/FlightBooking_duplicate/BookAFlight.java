@@ -1,5 +1,4 @@
 package com.testng.learn.FlightBooking_duplicate;
-
 import java.util.HashMap;
 import java.util.List;
 
@@ -9,9 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.FindBys;
 import org.openqa.selenium.support.ui.Select;
-
 public class BookAFlight {
-	
 	WebDriver driver=null;
 		By txtPFirstName= By.name("passFirst0");
 		By txtPLastName=By.name("passLast0");
@@ -72,16 +69,11 @@ public class BookAFlight {
 			 driver.findElement(txtBA_State).sendKeys(bookinguserdetails.get("state"));
 			 driver.findElement(txtBA_PostalCode).sendKeys(bookinguserdetails.get("city"));
 			 driver.findElement(txtBA_City).sendKeys(bookinguserdetails.get("postcode"));
-			 
 			 WebElement WBAcountry=driver.findElement(drpBA_Country);
 			 Select SBACountry=new Select(WBAcountry);
 			 SBACountry.selectByVisibleText(bookinguserdetails.get("country"));
-			 
 			 driver.findElement(chksame_address).click();
 			 driver.findElement(btnbook_flight).click();
 			 
 		 }
-		
-		
-	
 }
